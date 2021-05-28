@@ -1,0 +1,15 @@
+locale: dsb
+
+modules.classes:
+  - marytts.language.dsb.Preprocess
+  - marytts.modules.MinimalisticPosTagger(dsb,dsb.)
+  - marytts.language.dsb.LowerSorbianPhonemiser
+
+featuremanager.classes:
+  - marytts.features.FeatureProcessorManager(dsb)
+
+hsb:
+  allophoneset: jar:/marytts/language/dsb/lexicon/allophones.dsb.xml
+  userdict: MARY_BASE/user-dictionaries/userdict-dsb.txt
+  lexicon: jar:/marytts/language/dsb/lexicon/dsb_lexicon.fst
+  lettertosound: jar:/marytts/language/dsb/lexicon/dsb.lts

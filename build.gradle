@@ -1,0 +1,26 @@
+plugins {
+    id 'de.dfki.mary.component' version '0.2.1'
+}
+
+group 'de.serbski-institut'
+version '0.1.0-SNAPSHOT'
+
+marytts {
+    component {
+        name = 'LowerSorbian'
+        packageName = 'marytts.language.dsb'
+        configBaseClass = 'LanguageConfig'
+        config from: 'component.yaml'
+    }
+}
+
+dependencies {
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.8'
+    runtimeOnly group: 'de.serbski-institut', name: 'marytts-lexicon-dsb', version: '0.1.0-SNAPSHOT'
+}
+
+task run(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'marytts.server.Mary'
+    systemProperties << ['log4j.logger.marytts': 'DEBUG,stderr']
+}

@@ -1,0 +1,13 @@
+# Gradle
+.gradle/
+build/
+
+# IDEA
+.idea/
+*.iml
+
+# backup
+*~
+
+# OSX
+.DS_Store
