@@ -8,7 +8,7 @@ modules.classes:
 featuremanager.classes:
   - marytts.features.FeatureProcessorManager(dsb)
 
-hsb:
+dsb:
   allophoneset: jar:/marytts/language/dsb/lexicon/allophones.dsb.xml
   userdict: MARY_BASE/user-dictionaries/userdict-dsb.txt
   lexicon: jar:/marytts/language/dsb/lexicon/dsb_lexicon.fst
