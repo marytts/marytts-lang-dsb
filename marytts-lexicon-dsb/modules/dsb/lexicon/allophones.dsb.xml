@@ -60,8 +60,8 @@
   <consonant ph="z" ipa="z" ctype="f" cplace="a" cvox="+"/>
   <consonant ph="s`" ipa="ʂ" ctype="f" cplace="r" cvox="-"/>
   <consonant ph="z`" ipa="ʐ" ctype="f" cplace="r" cvox="+"/>
-  <consonant ph="s\" ipa="ɕ" ctype="f" cplace="ap" cvox="-"/>
-  <consonant ph="z\" ipa="ʑ" ctype="f" cplace="ap" cvox="+"/>
+  <consonant ph="s+" ipa="ɕ" ctype="f" cplace="ap" cvox="-"/>
+  <consonant ph="z+" ipa="ʑ" ctype="f" cplace="ap" cvox="+"/>
   <consonant ph="S" ipa="ʃ" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="Z" ipa="ʒ" ctype="f" cplace="p" cvox="+"/>
   <consonant ph="x" ipa="x" ctype="f" cplace="u" cvox="-"/>
@@ -75,8 +75,8 @@
   <consonant ph="dZ" ipa="dʒ" ctype="a" cplace="p" cvox="+"/>
   <consonant ph="ts`" ipa="tʂ" ctype="a" cplace="r" cvox="-"/>
   <consonant ph="dz`" ipa="dʐ" ctype="a" cplace="r" cvox="+"/>
-  <consonant ph="ts\" ipa="tɕ" ctype="a" cplace="ap" cvox="-"/>
-  <consonant ph="dz\" ipa="dʑ" ctype="a" cplace="ap" cvox="+"/>
+  <consonant ph="ts+" ipa="tɕ" ctype="a" cplace="ap" cvox="-"/>
+  <consonant ph="dz+" ipa="dʑ" ctype="a" cplace="ap" cvox="+"/>
   
   <consonant ph="l" ipa="l" ctype="l" cplace="a" cvox="+"/>
   <consonant ph="m" ipa="m" ctype="n" cplace="l" cvox="+"/>
