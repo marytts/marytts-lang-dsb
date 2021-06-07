@@ -9766,7 +9766,7 @@ Bobka	bOpka
 afroamerikanarjach	'a:froamEr*ji'kHa:nar*jax
 celaźinskemu	tsElaz+insk*jEmu
 duśim	dus+im
-dychdawanje	d3/*+ɣdawaJE
+dychdawanje	d3/*+GdawaJE
 pógórkego	pEgErk*jEgO
 basgitaru	'basgi'tHaru
 kemjelskem	k*jEme*^Elsk*jEm
