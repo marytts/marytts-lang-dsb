@@ -66,6 +66,7 @@
   <consonant ph="S" ipa="ʃ" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="Z" ipa="ʒ" ctype="f" cplace="p" cvox="+"/>
   <consonant ph="x" ipa="x" ctype="f" cplace="u" cvox="-"/>
+  <consonant ph="G" ipa="ɣ" ctype="f" cplace="v" cvox="+"/>
   <consonant ph="C" ipa="ç" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="h" ipa="h" ctype="f" cplace="g" cvox="-"/>
 <!-- <consonant ph="h" ipa="h" ctype="f" cplace="g" cvox="+"/> stimmhafte Variante? oder mit Regeln bestimmen-->
