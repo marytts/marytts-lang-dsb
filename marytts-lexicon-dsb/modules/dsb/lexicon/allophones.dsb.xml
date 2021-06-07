@@ -15,6 +15,7 @@
   <vowel ph="O" ipa="ɔ" vlng="s" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="O:" ipa="ɔː" vlng="l" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="o" ipa="o" vlng="s" vheight="2" vfront="3" vrnd="+"/>
+  <vowel ph="7" ipa="ɤ" vlng="s" vheight="2" vfront="3" vrnd="-"/>
   <vowel ph="o:" ipa="oː" vlng="l" vheight="2" vfront="3" vrnd="-"/>  <!-- deutscher Langvokal-->
   <vowel ph="U" ipa="ʊ" vlng="s" vheight="1" vfront="3" vrnd="+"/>
   <vowel ph="@" ipa="ə" vlng="s" vheight="2" vfront="2" vrnd="-"/>
