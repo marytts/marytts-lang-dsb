@@ -15,6 +15,7 @@
   <vowel ph="O" ipa="ɔ" vlng="s" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="O:" ipa="ɔː" vlng="l" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="o" ipa="o" vlng="s" vheight="2" vfront="3" vrnd="+"/>
+  <vowel ph="7" ipa="ɤ" vlng="s" vheight="2" vfront="3" vrnd="-"/>
   <vowel ph="o:" ipa="oː" vlng="l" vheight="2" vfront="3" vrnd="-"/>  <!-- deutscher Langvokal-->
   <vowel ph="U" ipa="ʊ" vlng="s" vheight="1" vfront="3" vrnd="+"/>
   <vowel ph="@" ipa="ə" vlng="s" vheight="2" vfront="2" vrnd="-"/>
@@ -65,6 +66,7 @@
   <consonant ph="S" ipa="ʃ" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="Z" ipa="ʒ" ctype="f" cplace="p" cvox="+"/>
   <consonant ph="x" ipa="x" ctype="f" cplace="u" cvox="-"/>
+  <consonant ph="G" ipa="ɣ" ctype="f" cplace="v" cvox="+"/>
   <consonant ph="C" ipa="ç" ctype="f" cplace="p" cvox="-"/>
   <consonant ph="h" ipa="h" ctype="f" cplace="g" cvox="-"/>
 <!-- <consonant ph="h" ipa="h" ctype="f" cplace="g" cvox="+"/> stimmhafte Variante? oder mit Regeln bestimmen-->
