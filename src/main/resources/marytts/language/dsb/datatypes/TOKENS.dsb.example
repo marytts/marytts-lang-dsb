@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><maryxml xmlns="http://mary.dfki.de/2002/MaryXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5" xml:lang="hsb">
-<p>
-<s>
-<t>
+<?xml version="1.0" encoding="UTF-8"?><maryxml xmlns="http://mary.dfki.de/2002/MaryXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5" xml:lang="dsb">
+    <p>
+        <s>
+            <t>
 Witajśo
 </t>
-<t>
+            <t>
 w
 </t>
-<t>
+            <t>
 swěśe
 </t>
-<t>
+            <t>
 rěcneje
 </t>
-<t>
+            <t>
 synteze
 </t>
-<t>
+            <t>
 !
 </t>
-</s>
-</p>
+        </s>
+    </p>
 </maryxml>
