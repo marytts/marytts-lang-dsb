@@ -15,6 +15,7 @@
   <vowel ph="O" ipa="ɔ" vlng="s" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="O:" ipa="ɔː" vlng="l" vheight="2" vfront="3" vrnd="+"/>
   <vowel ph="o" ipa="o" vlng="s" vheight="2" vfront="3" vrnd="+"/>
+  <vowel ph="3" ipa="ɜ" vlng="s" vheight="2" vfront="1" vrnd="-"/> <!-- Platzhalter für ó, kann wie bekannt verschiedene Qualitäten haben -->
   <vowel ph="7" ipa="ɤ" vlng="s" vheight="2" vfront="3" vrnd="-"/>
   <vowel ph="o:" ipa="oː" vlng="l" vheight="2" vfront="3" vrnd="-"/>  <!-- deutscher Langvokal-->
   <vowel ph="U" ipa="ʊ" vlng="s" vheight="1" vfront="3" vrnd="+"/>
@@ -89,6 +90,7 @@
   <consonant ph="w" ipa="w" ctype="r" cplace="l" cvox="+"/>
   <consonant ph="j" ipa="j" ctype="r" cplace="p" cvox="+"/>
   <consonant ph="r" ipa="r" ctype="t" cplace="a" cvox="+"/> <!-- ctype t = trill-->
+  <consonant ph="R" ipa="ɹ" ctype="t" cplace="a" cvox="+"/> <!-- Morphemendungs-R, kann verschiedene Qualitäten haben, aber nicht jede Qualität kann auch an anderen Stellen auftreten-->
   
   <consonant ph="?" ipa="ʔ" ctype="s" cplace="g" cvox="-"/>
   
