@@ -96,6 +96,7 @@
   
   <consonant ph="l*j" ipa="lʲ" ctype="l" cplace="a" cvox="+"/> <!-- kann evtl auch ausgelassen werden, müsste man testen-->
   <consonant ph="r*j" ipa="rʲ" ctype="t" cplace="a" cvox="+"/>
+  <consonant ph="R*j" ipa="ɹʲ" ctype="r" cplace="a" cvox="+"/> <!-- Morphemendungs-R, weiche Variante-->
   <consonant ph="k*j" ipa="kʲ" ctype="s" cplace="v" cvox="-"/>
   <consonant ph="g*j" ipa="ɡʲ" ctype="s" cplace="v" cvox="+"/> <!-- ? -->
   <consonant ph="x*j" ipa="xʲ" ctype="f" cplace="u" cvox="-"/>
