@@ -32,4 +32,18 @@ class PreprocessIT {
         }
         assert actual == expected
     }
+    
+    @Test
+    void 'Given input with symbols, When text is converted to words, Then symbols are expanded correctly'() {
+        def input = 'Bankowki eksistěruju za gódnoty 5, 10, 20, 50, 100, 200 a 500 €.'
+        def expected = 'Bankowki eksistěruju za gódnoty pěś, źaseś, dwaźasća, pěśźaset, sto, dwěsćě a pěśstow eurow.'
+        def output = mary.generateXML(input)
+        def outputStr = output.documentElement.serialize()
+        def xmlSlurper = new XmlSlurper(false, false)
+        def tokens = xmlSlurper.parseText(outputStr).depthFirst().findAll { it.name() == 't' }
+        def actual = tokens.inject('') { result, token ->
+            (result.isEmpty() || token ==~ /\p{Punct}/) ? result + token : result + ' ' + token
+        }
+        assert actual == expected
+    }
 }
