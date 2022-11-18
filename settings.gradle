@@ -1,2 +1,2 @@
 rootProject.name = 'marytts-lang-dsb'
-includeBuild 'marytts-lexicon-dsb'
+includeBuild 'gradle-marytts-component-plugin'
