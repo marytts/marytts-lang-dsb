@@ -14,9 +14,15 @@ marytts {
     }
 }
 
+repositories {
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
+}
+
 dependencies {
     implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.9.0'
-    runtimeOnly group: 'de.serbski-institut', name: 'marytts-lexicon-dsb', version: '0.1.0-SNAPSHOT'
+    runtimeOnly group: 'de.dfki.mary', name: 'marytts-lexicon-dsb', version: '0.1.0-SNAPSHOT'
 }
 
 task run(type: JavaExec) {
