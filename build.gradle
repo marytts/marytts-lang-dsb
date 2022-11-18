@@ -27,6 +27,6 @@ dependencies {
 
 task run(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    main = 'marytts.server.Mary'
+    mainClass.set 'marytts.server.Mary'
     systemProperties << ['log4j.logger.marytts': 'DEBUG,stderr']
 }
