@@ -6,7 +6,7 @@ plugins {
 
 group 'de.dfki.mary'
 version '0.1.0-SNAPSHOT'
-
+description 'Lower Sorbian language component for MaryTTS'
 ext.isReleaseVersion = !version.endsWith("SNAPSHOT")
 
 marytts {
@@ -62,7 +62,7 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git://github.com/marytts/marytts-lang-dsb.git'
+                    connection = 'scm:git:https://github.com/marytts/marytts-lang-dsb.git'
                     developerConnection = 'scm:git:ssh://git@github.com:marytts/marytts-lang-dsb.git'
                     url = 'https://github.com/marytts/marytts-lang-dsb'
                 }
