@@ -7,7 +7,10 @@ plugins {
 group 'de.dfki.mary'
 version '0.1.0-SNAPSHOT'
 description 'Lower Sorbian language component for MaryTTS'
-ext.isReleaseVersion = !version.endsWith("SNAPSHOT")
+ext {
+    url = 'https://github.com/marytts/marytts-lang-dsb'
+    isReleaseVersion = !version.endsWith("SNAPSHOT")
+}
 
 marytts {
     component {
@@ -27,7 +30,7 @@ dependencies {
     runtimeOnly group: 'de.dfki.mary', name: 'marytts-lexicon-dsb', version: '0.1.0'
 }
 
-task run(type: JavaExec) {
+tasks.register('run', JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     mainClass.set 'marytts.server.Mary'
     systemProperties << ['log4j.logger.marytts': 'DEBUG,stderr']
@@ -40,7 +43,7 @@ publishing {
             pom {
                 name = project.name
                 description = project.description
-                url = 'https://github.com/marytts/marytts-lang-dsb'
+                url = project.url
                 licenses {
                     license {
                         name = 'GNU Lesser General Public License v3.0 only'
@@ -64,7 +67,7 @@ publishing {
                 scm {
                     connection = 'scm:git:https://github.com/marytts/marytts-lang-dsb.git'
                     developerConnection = 'scm:git:ssh://git@github.com:marytts/marytts-lang-dsb.git'
-                    url = 'https://github.com/marytts/marytts-lang-dsb'
+                    url = project.url
                 }
             }
         }
@@ -84,6 +87,6 @@ signing {
     sign publishing.publications.mavenJava
 }
 
-tasks.withType(Sign) {
+tasks.withType(Sign).configureEach {
     onlyIf { isReleaseVersion }
 }
