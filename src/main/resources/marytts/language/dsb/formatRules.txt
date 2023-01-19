@@ -211,7 +211,13 @@ x.x: << koma >>;
 9000: źewjeśtysacne;
 10000: źaseśtysacne;
 20000: dwaźasćatysacne;
-%spellout-numbering-year:
-0: =%spellout-numbering=;
-1100/100: <%spellout-numbering< stow [>>];
+%alt-teens:
+=%spellout-numbering=;
+1000>: <%%alt-hundreds<[ >>];
 10000: =%spellout-numbering=;
+%%alt-hundreds:
+0: SHOULD NEVER GET HERE!;
+10: <%spellout-numbering< tysac;
+11: =%spellout-numbering= stow>%%empty>;
+%%empty:
+0:;
