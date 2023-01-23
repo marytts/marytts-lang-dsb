@@ -3,3 +3,10 @@
 
 Lower Sorbian language component for MaryTTS | Dolnoserbska rěcna komponenta za MaryTTS
 =======================================================================================
+
+Building | Twarjenje
+--------------------
+
+Run
+
+    ./gradlew build
