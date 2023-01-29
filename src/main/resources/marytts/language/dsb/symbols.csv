@@ -65,32 +65,22 @@ symbol,expansion
 ↓,dołoj
 →,napšawo
 ←,nalěwo
-„,pazorki dołojce
 #,ruta
 €,eurow
 $,dolarow
 £,funtow
 %,procentow
 &,a
-(,wótwórjona spinka
-),zawrjena spinka
 *,gwězdka
 +,plus
-–,lažeca smužka
-/,sleš
-:,dwójodypk
-;,semikolon
 <,mjeńše ako
 =,rowna se
 >,wětše ako
-?,pšašak
 @,et
 [,wótwórjona rožkata spinka
 \,beksleš
 ],zawrjena rožkata spinka
 ^,wušej 
-_,pódsmužka
-`,grawis
 {,wótwórjona wuzgibnjona spinka
 |,padorowna smužka
 },zawrjena wuzgibnjona spinka
@@ -99,3 +89,6 @@ _,pódsmužka
 "°C",stopnjow Celsius
 "°K",stopnjow Kelvin
 "°F",stopnjow Fahrenheit
+"° C",stopnjow Celsius
+"° K",stopnjow Kelvin
+"° F",stopnjow Fahrenheit
