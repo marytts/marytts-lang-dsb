@@ -1,8 +1,8 @@
 Lower Sorbian language component for MaryTTS
 ============================================
 
-[Unreleased]
-------------
+[v0.1.2] - 2024-04-25
+---------------------
 
 ### Changed
 
@@ -28,6 +28,6 @@ Initial release
 
 - Artifact hosting on Maven Central
 
-[Unreleased]: https://github.com/marytts/marytts-lang-dsb
+[v0.1.2]: https://github.com/marytts/marytts-lang-dsb/releases/tag/v0.1.2
 [v0.1.1]: https://github.com/marytts/marytts-lang-dsb/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/marytts/marytts-lang-dsb/releases/tag/v0.1.0
