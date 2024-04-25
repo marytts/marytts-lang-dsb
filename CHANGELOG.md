@@ -4,6 +4,12 @@ Lower Sorbian language component for MaryTTS
 [Unreleased]
 ------------
 
+### Changed
+
+- Build with Gradle v7.6.4
+- Upgraded GitHub actions
+- Upgraded component plugin to v0.3.2
+
 [v0.1.1] - 2023-02-02
 ---------------------
 
