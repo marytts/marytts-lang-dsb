@@ -4,6 +4,10 @@ Lower Sorbian language component for MaryTTS
 [Unreleased]
 ------------
 
+### Changed
+
+- Upgraded lexicon to v0.2.0
+
 [v0.1.2] - 2024-04-25
 ---------------------
 
