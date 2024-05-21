@@ -116,7 +116,7 @@ public class Preprocess extends InternalModule {
     }
 
     protected String expandAbbreviation(String abbreviation) {
-        if (symbols.containsKey(abbreviation))
+        if (abbreviations.containsKey(abbreviation))
             return abbreviations.get(abbreviation);
         else
             return abbreviation;
