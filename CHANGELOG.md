@@ -4,6 +4,10 @@ Lower Sorbian language component for MaryTTS
 [Unreleased]
 ------------
 
+### Added
+
+- Abbreviation expansion in preprocessing
+
 ### Changed
 
 - Upgraded lexicon to v0.2.0
