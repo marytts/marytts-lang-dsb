@@ -35,6 +35,7 @@ x.x: << koma >>;
 400: styrista[>>];
 500: <<stow[>>];
 1000: tysac[>>];
+1100/100: <%spellout-numbering<stow[ >>];
 2000: <<tysac[>>];
 1000000: jaden milion[ >>];
 2000000: dwa miliona[ >>];
@@ -211,13 +212,3 @@ x.x: << koma >>;
 9000: źewjeśtysacne;
 10000: źaseśtysacne;
 20000: dwaźasćatysacne;
-%alt-teens:
-=%spellout-numbering=;
-1000>: <%%alt-hundreds<[ >>];
-10000: =%spellout-numbering=;
-%%alt-hundreds:
-0: SHOULD NEVER GET HERE!;
-10: <%spellout-numbering< tysac;
-11: =%spellout-numbering= stow>%%empty>;
-%%empty:
-0:;
