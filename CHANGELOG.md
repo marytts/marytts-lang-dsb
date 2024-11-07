@@ -4,6 +4,18 @@ Lower Sorbian language component for MaryTTS
 [Unreleased]
 ------------
 
+### Added
+
+- More abbreviations
+
+### Fixed
+
+- Number expansion for years 1100-1999
+
+### Changed
+
+- Upgraded lexicon to v0.2.1
+
 [v0.2.0] - 2024-10-02
 ---------------------
 
